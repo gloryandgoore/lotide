@@ -25,3 +25,5 @@ const findKey = function (object, callback) {
 
   console.log(assertEqual(answer, "Akaleri"));
   console.log(assertEqual(answer, "noma"));
+
+  module.exports = findKey;
