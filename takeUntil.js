@@ -51,4 +51,4 @@ const eqArrays = function(arrayOne, arrayTwo) {
   //---
   //[ 'I\'ve', 'been', 'to', 'Hollywood' ]
   
-  
+  module.exports = takeUntil;
