@@ -1,7 +1,7 @@
 const assert = require('chai').assert;
 const eqArrays = require('../eqArrays');
 
-describe("#middle", () => {
+describe("#eqArrays", () => {
     it ("returns true for [1, 2, 3], [1, 2, 3]", () => {
         assert.isTrue(eqArrays([1, 2, 3], [1, 2, 3]));
     });
